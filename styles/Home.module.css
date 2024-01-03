@@ -1,15 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;700&display=swap");
 
 .container {
   display: flex;
   flex-direction: column;
-  max-width: 600px; 
+  max-width: 600px;
   height: 100vh;
   justify-content: flex-start;
   align-items: flex-start;
   text-align: left;
-  padding: 4em 2em; 
-  font-family: 'Roboto Slab', serif;
+  padding: 4em 2em;
+  font-family: "Roboto Slab", serif;
   margin: auto;
 }
 
@@ -104,4 +104,30 @@
 .link {
   color: #000;
   text-decoration: underline;
+}
+
+.linkArrow {
+  font-size: 18px;
+  color: #333;
+  cursor: pointer;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.linkArrow:hover {
+  color: #555;
+  transform: scale(1.1);
+}
+
+.headingWithLink {
+  display: flex;
+  align-items: center;
+}
+
+.headingWithLink h2 {
+  margin-right: 4px;
+}
+
+.headingWithLink a span.linkArrow {
+  text-decoration: none;
+  display: inline-block;
 }
