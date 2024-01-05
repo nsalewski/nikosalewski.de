@@ -28,3 +28,20 @@
   position: absolute;
   bottom: 20px;
 }
+
+blockquote {
+  margin: 2em 0;
+  padding: 0 1em;
+  border-left: 3px solid #ccc;
+  color: #444;
+  line-height: 1.6;
+}
+
+blockquote cite {
+  display: block;
+  margin-top: 10px;
+  text-align: right;
+  font-size: 16px;
+  font-style: normal;
+  color: #666;
+}
