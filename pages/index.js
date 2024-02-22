@@ -27,23 +27,30 @@ export default function Home({ allPostsData }) {
       <div className={styles.container}>
         <h1 className={styles.title}>Niko Salewski</h1>
         <p className={styles.subtitle}>
-          Hi, I'm Niko. This is my personal website where I share the things I
-          work on and some words I write. This site is built using{" "}
-          <a href="https://nextjs.org/" target="_blank">
-            Next.js
-          </a>
-          , bootstrapped with{" "}
-          <a
-            href="https://github.com/vercel/next.js/tree/canary/packages/create-next-app"
-            target="_blank"
-          >
-            create-next-app
-          </a>
-          , and deployed on{" "}
-          <a href="https://vercel.com/" target="_blank">
-            Vercel
-          </a>
-          .
+          <p>
+            Hi, I'm Niko. This is my personal website where I share the things I
+            work on and some words I write. This site is built using{" "}
+            <a href="https://nextjs.org/" target="_blank">
+              Next.js
+            </a>
+            , bootstrapped with{" "}
+            <a
+              href="https://github.com/vercel/next.js/tree/canary/packages/create-next-app"
+              target="_blank"
+            >
+              create-next-app
+            </a>
+            , and deployed on{" "}
+            <a href="https://vercel.com/" target="_blank">
+              Vercel
+            </a>
+            .
+          </p>
+          <p>
+            The <strong>Building</strong> section lists new things I'm working
+            on. The <strong>Projects</strong> section lists projects that are
+            established and functioning.
+          </p>
         </p>
 
         <div className={styles.sections}>
@@ -51,8 +58,14 @@ export default function Home({ allPostsData }) {
             <h2>Building</h2>
             <ul>
               <li>
-                <a>...</a>
-                <p>...</p>
+                <a
+                  href="https://learnground.de"
+                  target="_blank"
+                  className={styles.link}
+                >
+                  Learnground
+                </a>
+                <p>Marketplace for cohort-based online courses for kids.</p>
               </li>
             </ul>
           </div>
@@ -69,16 +82,6 @@ export default function Home({ allPostsData }) {
                   chess4u
                 </a>
                 <p>Online chess school for kids.</p>
-              </li>
-              <li>
-                <a
-                  href="https://learnground.de"
-                  target="_blank"
-                  className={styles.link}
-                >
-                  Learnground
-                </a>
-                <p>Marketplace for cohort-based online courses for kids.</p>
               </li>
             </ul>
           </div>
