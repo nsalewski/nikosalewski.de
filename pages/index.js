@@ -26,7 +26,7 @@ export default function Home({ allPostsData }) {
     <Layout>
       <div className={styles.container}>
         <h1 className={styles.title}>Niko Salewski</h1>
-        <p className={styles.subtitle}>
+        <div className={styles.subtitle}>
           <p>
             Hi, I'm Niko. This is my personal website where I share the things I
             work on and some words I write. This site is built using{" "}
@@ -51,7 +51,7 @@ export default function Home({ allPostsData }) {
             on. The <strong>Projects</strong> section lists projects that are
             established and functioning.
           </p>
-        </p>
+        </div>
 
         <div className={styles.sections}>
           <div className={styles.section}>
