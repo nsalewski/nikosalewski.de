@@ -49,7 +49,7 @@ export default function Home({ allPostsData }) {
           <p>
             The <strong>Building</strong> section lists new things I'm working
             on. The <strong>Projects</strong> section lists projects that are
-            established and functioning.
+            established.
           </p>
         </div>
 
@@ -82,6 +82,10 @@ export default function Home({ allPostsData }) {
                   chess4u
                 </a>
                 <p>Online chess school for kids.</p>
+              </li>
+              <li>
+                <a>Personal erudition</a>
+                <p>My learning and reading.</p>
               </li>
             </ul>
           </div>
