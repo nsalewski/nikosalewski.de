@@ -84,7 +84,7 @@ export default function Home({ allPostsData }) {
                 <p>Online chess school for kids.</p>
               </li>
               <li>
-                <a>Personal erudition</a>
+                <a>Erudition</a>
                 <p>My learning and reading.</p>
               </li>
             </ul>
