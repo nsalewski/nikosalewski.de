@@ -65,7 +65,7 @@ export default function Home({ allPostsData }) {
                 >
                   Learnground
                 </a>
-                <p>Marketplace for cohort-based online courses for kids.</p>
+                <p>Marketplace for online courses for kids.</p>
               </li>
             </ul>
           </div>
@@ -82,10 +82,6 @@ export default function Home({ allPostsData }) {
                   chess4u
                 </a>
                 <p>Online chess school for kids.</p>
-              </li>
-              <li>
-                <a>Erudition</a>
-                <p>My learning and reading.</p>
               </li>
             </ul>
           </div>
