@@ -47,9 +47,8 @@ export default function Home({ allPostsData }) {
             .
           </p>
           <p>
-            The <strong>Building</strong> section lists new things I'm working
-            on. The <strong>Projects</strong> section lists projects that are
-            established.
+            The <i>Building</i> section lists new things I'm working on. The{" "}
+            <i>Projects</i> section lists projects that are established.
           </p>
         </div>
 
@@ -66,6 +65,10 @@ export default function Home({ allPostsData }) {
                   Learnground
                 </a>
                 <p>Marketplace for online courses for kids.</p>
+              </li>
+              <li>
+                <a>Treffliste</a>
+                <p>Platform for finding meetups in German.</p>
               </li>
             </ul>
           </div>
