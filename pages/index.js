@@ -67,8 +67,14 @@ export default function Home({ allPostsData }) {
                 <p>Marketplace for online courses for kids.</p>
               </li>
               <li>
-                <a>Treffliste</a>
-                <p>Platform for finding meetups in German.</p>
+                <a
+                  href="https://treffliste.web.app/"
+                  target="_blank"
+                  className={styles.link}
+                >
+                  Treffliste
+                </a>
+                <p>Platform for finding meetups near you.</p>
               </li>
             </ul>
           </div>
