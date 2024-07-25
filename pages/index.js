@@ -64,7 +64,7 @@ export default function Home({ allPostsData }) {
                 >
                   Learnground
                 </a>
-                <p>Marketplace for online courses for kids.</p>
+                <p>Connecting great teachers with curious kids.</p>
               </li>
               <li>
                 <a
