@@ -66,16 +66,6 @@ export default function Home({ allPostsData }) {
                 </a>
                 <p>Connecting great teachers with curious kids.</p>
               </li>
-              <li>
-                <a
-                  href="https://treffliste.web.app/"
-                  target="_blank"
-                  className={styles.link}
-                >
-                  Treffliste
-                </a>
-                <p>Platform for finding meetups near you.</p>
-              </li>
             </ul>
           </div>
 
