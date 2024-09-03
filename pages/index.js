@@ -33,8 +33,12 @@ export default function Home({ allPostsData }) {
             others.
           </p>
           <p>
-            I am the founder of <a href="https://www.chess4u.de/">chess4u</a>{" "}
-            which is an online chess school for kids.
+            I'm the founder of <a href="https://www.chess4u.de/">chess4u</a>, an
+            online chess school for kids. We're a team of 16 independent coaches
+            who teach kids in small groups and through lectures. Some kids are
+            just starting out, while others are already among the top in their
+            age group nationwide. We also host tournaments and create learning
+            apps.
           </p>
           <p>
             I enjoy working on software projects.{" "}
