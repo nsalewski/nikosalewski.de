@@ -29,15 +29,20 @@ export default function Home({ allPostsData }) {
 
         <div className={styles.content}>
           <p>
-            Hi, I'm Niko Salewski. I'm a [your profession/role] based in [your
-            location].
+            Hi, I'm Niko. I'm a guy from Germany that loves to build things for
+            others.
           </p>
-          <p>[Add a paragraph about your work, interests, or expertise]</p>
-          <p>[Add another paragraph with more details about yourself]</p>
           <p>
-            I also write about [topics you write about]. Here are my latest
-            posts:
+            I am the founder of <a href="https://www.chess4u.de/">chess4u</a>{" "}
+            which is an online chess school for kids.
           </p>
+          <p>
+            I enjoy working on software projects.{" "}
+            <a href="https://www.learnground.de/">Learnground</a> is a site
+            where kids can learn more about topics they are curious about from
+            independent teachers.
+          </p>
+          <p>I also like to write about things I learn here and there.</p>
           <ul className={styles.postList}>
             {allPostsData.map(({ id, date, title }, index) => (
               <li key={id}>
