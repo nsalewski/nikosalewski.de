@@ -11,16 +11,10 @@
 }
 
 .content {
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.6;
-  color: #888;
-  font-weight: 600;
-}
-
-.subtitle {
-  font-size: 28px;
-  margin-top: 40px;
-  margin-bottom: 20px;
+  color: #888888;
+  font-weight: 500;
 }
 
 .postList {
@@ -34,22 +28,22 @@
 
 .postTitle,
 .link {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 600;
-  color: #3498db;
+  color: #0099ff;
   text-decoration: none;
 }
 
 .postDate {
   font-size: 16px;
-  color: #888;
+  color: #888888;
   margin-left: 10px;
 }
 
 .newTag {
   background-color: #e67e22;
   color: white;
-  font-size: 14px;
+  font-size: 12px;
   padding: 2px 5px;
   border-radius: 3px;
   margin-left: 10px;
