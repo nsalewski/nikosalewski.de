@@ -39,12 +39,13 @@ export default function Home({ allPostsData }) {
             posts:
           </p>
           <ul className={styles.postList}>
-            {allPostsData.map(({ id, date, title }) => (
+            {allPostsData.map(({ id, date, title }, index) => (
               <li key={id}>
                 <Link href={`/blog/${id}`}>
                   <span className={styles.postTitle}>{title}</span>
                 </Link>
                 <span className={styles.postDate}>{formatDate(date)}</span>
+                {index === 0 && <span className={styles.newTag}>NEW</span>}
               </li>
             ))}
           </ul>
