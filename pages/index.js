@@ -29,7 +29,7 @@ export default function Home({ allPostsData }) {
 
         <div className={styles.content}>
           <p>
-            Hi, I'm Niko. I'm a guy from Germany that loves to build things for
+            Hi, I'm Niko. I'm a guy from Germany that loves building things for
             others.
           </p>
           <p>
@@ -41,8 +41,8 @@ export default function Home({ allPostsData }) {
             apps.
           </p>
           <p>
-            I work on various software projects.{" "}
-            <a href="https://www.learnground.de/">Learnground</a> is a site
+            I work on various software projects. One of them is{" "}
+            <a href="https://www.learnground.de/">Learnground</a> -- a site
             where kids can find teachers and courses on topics they're curious
             about. I just started this project, and I'm trying to make it work.
           </p>
