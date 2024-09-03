@@ -25,112 +25,30 @@ export default function Home({ allPostsData }) {
   return (
     <Layout>
       <div className={styles.container}>
-        <h1 className={styles.title}>Niko Salewski</h1>
-        <div className={styles.subtitle}>
+        <h1 className={styles.title}>About</h1>
+
+        <div className={styles.content}>
           <p>
-            Hi, I'm Niko. This is my personal website where I share the things I
-            work on and some words I write. This site is built using{" "}
-            <a href="https://nextjs.org/" target="_blank">
-              Next.js
-            </a>
-            , bootstrapped with{" "}
-            <a
-              href="https://github.com/vercel/next.js/tree/canary/packages/create-next-app"
-              target="_blank"
-            >
-              create-next-app
-            </a>
-            , and deployed on{" "}
-            <a href="https://vercel.com/" target="_blank">
-              Vercel
-            </a>
-            .
+            Hi, I'm Niko Salewski. I'm a [your profession/role] based in [your
+            location].
           </p>
+          <p>[Add a paragraph about your work, interests, or expertise]</p>
+          <p>[Add another paragraph with more details about yourself]</p>
+
+          <h2 className={styles.subtitle}>Recent Writing</h2>
           <p>
-            The <i>Building</i> section lists new things I'm working on. The{" "}
-            <i>Projects</i> section lists projects that are established.
+            I also write about [topics you write about]. Here are my latest
+            posts:
           </p>
-        </div>
-
-        <div className={styles.sections}>
-          <div className={styles.section}>
-            <h2>Building</h2>
-            <ul>
-              <li>
-                <a
-                  href="https://learnground.de"
-                  target="_blank"
-                  className={styles.link}
-                >
-                  Learnground
-                </a>
-                <p>Connecting great teachers with curious kids.</p>
+          <ul className={styles.postList}>
+            {allPostsData.map(({ id, date, title }) => (
+              <li key={id}>
+                <Link href={`/blog/${id}`}>
+                  <span className={styles.postTitle}>{title}</span>
+                </Link>
+                <span className={styles.postDate}>{formatDate(date)}</span>
               </li>
-            </ul>
-          </div>
-
-          <div className={styles.section}>
-            <h2>Projects</h2>
-            <ul>
-              <li>
-                <a
-                  href="https://www.chess4u.de"
-                  target="_blank"
-                  className={styles.link}
-                >
-                  chess4u
-                </a>
-                <p>Online chess school for kids.</p>
-              </li>
-            </ul>
-          </div>
-
-          <div className={styles.section}>
-            <div className={styles.headingWithLink}>
-              <h2>Writing</h2>
-              <Link href="/blog">
-                <span className={styles.linkArrow}>→</span>
-              </Link>
-            </div>
-            <ul>
-              {allPostsData.map(({ id, date, title }) => (
-                <li key={id}>
-                  <Link href={`/blog/${id}`}>
-                    <span className={styles.link}>{title}</span>{" "}
-                  </Link>
-                  <p>{formatDate(date)}</p>
-                </li>
-              ))}
-            </ul>
-          </div>
-        </div>
-
-        <div className={styles.connect}>
-          <h2>Connect</h2>
-          <ul>
-            <li>
-              <a href="mailto:niko@chess4u.de" className={styles.link}>
-                Email
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://github.com/nsalewski"
-                target="_blank"
-                className={styles.link}
-              >
-                GitHub
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://de.linkedin.com/in/niko-salewski"
-                target="_blank"
-                className={styles.link}
-              >
-                LinkedIn
-              </a>
-            </li>
+            ))}
           </ul>
         </div>
       </div>
