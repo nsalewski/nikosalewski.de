@@ -34,8 +34,6 @@ export default function Home({ allPostsData }) {
           </p>
           <p>[Add a paragraph about your work, interests, or expertise]</p>
           <p>[Add another paragraph with more details about yourself]</p>
-
-          <h2 className={styles.subtitle}>Recent Writing</h2>
           <p>
             I also write about [topics you write about]. Here are my latest
             posts:
