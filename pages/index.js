@@ -41,11 +41,10 @@ export default function Home({ allPostsData }) {
             apps.
           </p>
           <p>
-            I work on different software projects.{" "}
+            I work on various software projects.{" "}
             <a href="https://www.learnground.de/">Learnground</a> is a site
-            where kids can find teachers and courses that teach them topics they
-            are curious about. I just started this project and I'm trying to
-            make it work.
+            where kids can find teachers and courses on topics they're curious
+            about. I just started this project, and I'm trying to make it work.
           </p>
           <p>I also like to write about things I learn here and there.</p>
           <ul className={styles.postList}>
