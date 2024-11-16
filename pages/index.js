@@ -47,7 +47,7 @@ export default function Home({ allPostsData }) {
             in their age group nationwide. We also host tournaments and create
             learning apps.
           </p>
-          <p>I also like to write about things I learn here and there.</p>
+          <p>I like to write about things I learn here and there.</p>
           <ul className={styles.postList}>
             {allPostsData.map(({ id, date, title }, index) => (
               <li key={id}>
