@@ -33,18 +33,11 @@ export default function Home({ allPostsData }) {
             others.
           </p>
           <p>
-            I'm the founder of <a href="https://www.chess4u.de/">chess4u</a>, an
-            online chess school for kids. We're a team of 16 independent coaches
-            who teach kids in small groups and through lectures. Some kids are
-            just starting out, while others are already among the top in their
-            age group nationwide. We also host tournaments and create learning
-            apps.
-          </p>
-          <p>
-            I work on various software projects. One of them is{" "}
-            <a href="https://www.learnground.de/">Learnground</a> -- a site
-            where kids can find teachers and courses on topics they're curious
-            about. I just started this project, and I'm trying to make it work.
+            I started <a href="https://www.chess4u.de/">chess4u</a>, an online
+            chess school for kids. We're a team of 16 independent coaches who
+            teach kids in small groups and through lectures. Some kids are just
+            starting out, while others are already among the top in their age
+            group nationwide. We also host tournaments and create learning apps.
           </p>
           <p>I also like to write about things I learn here and there.</p>
           <ul className={styles.postList}>
