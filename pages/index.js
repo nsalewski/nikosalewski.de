@@ -29,7 +29,7 @@ export default function Home({ allPostsData }) {
 
         <div className={styles.content}>
           <p>
-            Hi, I'm Niko. I'm a guy from Germany that loves building things for
+            Hi, I'm Niko. I'm a guy from Germany who loves building things for
             others.
           </p>
           <p>
@@ -41,8 +41,8 @@ export default function Home({ allPostsData }) {
             >
               chess4u
             </a>
-            , an online chess school for kids that I run since. We're a team of
-            16 independent coaches who teach kids in small groups and through
+            , an online chess school for kids that I run. We're a team of 16
+            independent coaches who teach kids in small groups and through
             lectures. Some kids are just starting out, while others are already
             among the top in their age group nationwide. We also host
             tournaments and create learning apps.
