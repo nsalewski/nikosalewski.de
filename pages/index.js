@@ -47,18 +47,6 @@ export default function Home({ allPostsData }) {
             in their age group nationwide. We also host tournaments and create
             learning apps.
           </p>
-          <p>I like to write about things I learn here and there.</p>
-          <ul className={styles.postList}>
-            {allPostsData.map(({ id, date, title }, index) => (
-              <li key={id}>
-                <Link href={`/blog/${id}`}>
-                  <span className={styles.postTitle}>{title}</span>
-                </Link>
-                <span className={styles.postDate}>{formatDate(date)}</span>
-                {index === 0 && <span className={styles.newTag}>NEW</span>}
-              </li>
-            ))}
-          </ul>
         </div>
       </div>
     </Layout>
