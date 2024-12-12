@@ -47,6 +47,10 @@ export default function Home({ allPostsData }) {
             in their age group nationwide. We also host tournaments and create
             learning apps.
           </p>
+          <p>
+            You can reach me via mail at{" "}
+            <a href="mailto:niko@hey.com">niko@hey.com</a>.
+          </p>
         </div>
       </div>
     </Layout>
